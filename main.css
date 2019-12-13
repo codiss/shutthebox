@@ -1,0 +1,51 @@
+body {
+	font-family: 'Calistoga', cursive;
+	background-color: #CCC;
+}
+
+h1 {
+	text-align: center;
+	background-color: darkgray;
+}
+
+/*#board {
+	background-color: #641;
+}*/
+
+table {
+  max-width: 35rem;
+  margin: auto;
+  border: .5rem solid #641;
+	border-radius: .625rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #CCC;
+	background-color: #161;
+}
+
+td {
+	border: .0625rem solid gray;
+}
+
+tr:first-child td {
+	width: 11.1%;
+	
+}
+
+img {
+	padding-top: .5rem;
+}
+
+input {
+	width: 100%;
+	font-size: 2.5rem;
+}
+
+input[type="checkbox"] {
+	transform: scale(1, 2);
+}
+
+input[type="button"] {
+	border-radius: .5rem;
+	font-family: 'Calistoga', cursive;
+}
